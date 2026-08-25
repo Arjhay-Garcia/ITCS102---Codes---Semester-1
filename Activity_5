@@ -1,0 +1,42 @@
+# Arihmetic Operations
+# plus			+
+# minus			-
+# multiply		*
+# divide		/
+# floor division	//
+# modulus		%
+# exponent		**
+
+
+a = 6
+b = 7
+
+print("The sum of",a , "and", b,"is", a+b)
+
+c = 12
+d = 24
+
+print("The difference of", c, "and", d, "is", c-d)
+
+e = 11
+f = 22
+
+print("The product of", e, "and", f, "is", e-f)
+
+g = 60
+h = 6
+
+print("The quotient of", g, "and", h, "is", g*h)
+
+i = 7188
+j = 177
+
+print("rounding the result of dividing", i ,"and", j, "returns", i//j)
+
+k = 4
+l = 2
+
+print(k, "squared is equal to", k**l)
+
+print("the remainder of the quotient of", i, "and", j, "is", i%j)
+
