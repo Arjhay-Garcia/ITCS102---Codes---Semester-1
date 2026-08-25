@@ -1,0 +1,3 @@
+word_1 = "supercalifragilisticexpialidocious, \n pneoumono\tultramicroscopic\rsilicovolcano\tconiosis"
+
+print(word_1)
