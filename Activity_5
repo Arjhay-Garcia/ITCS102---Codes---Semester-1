@@ -21,12 +21,12 @@ print("The difference of", c, "and", d, "is", c-d)
 e = 11
 f = 22
 
-print("The product of", e, "and", f, "is", e-f)
+print("The product of", e, "and", f, "is", e*f)
 
 g = 60
 h = 6
 
-print("The quotient of", g, "and", h, "is", g*h)
+print("The quotient of", g, "and", h, "is", g/h)
 
 i = 7188
 j = 177
