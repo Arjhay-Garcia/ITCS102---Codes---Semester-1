@@ -1,3 +1,4 @@
+# ======================================
 # integer variable
 
 Maabo_Pop = 100
@@ -6,6 +7,7 @@ Crossing_Pop = 150
 n1 = 300
 n2 = 200
 
+# ======================================
 # string variable
 
 Street = "Purok Maabo Uno"
@@ -13,30 +15,34 @@ Barangay = "Mayao Parada"
 City = "Lucena City"
 Province =  "Quezon Province"
 
+# ======================================
 # float variable 
 
 pi = 3.14159265358
 TempInLucena = 31.2
 
+# ======================================
 # Boolean variable
 
 IsPresent = True
 
-
+# ======================================
 # Integer Application
 print("The population of purok maabo is: ",Maabo_Pop)
 print("The population of purok maabo and mayao crossing combined is: ",Maabo_Pop + Crossing_Pop)
 
+# ======================================
 # string Application
 print("I live in ",  Street + Barangay + City + Province, ".")
 
-
+# ======================================
 # float Application
 print("The first 12 digits of the pi is: ",pi)
 print("The current Temperature here in Lucena City is around: ", TempInLucena)
 
+# ======================================
 # Boolean Application
 print("Is this certain person present? ", IsPresent)
 
-
+# ======================================
 
