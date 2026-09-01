@@ -12,7 +12,7 @@
 # 2. Once I can do that, how can I possibly list them to each of their respective denominations?
 #   - 
 
-money = 1540
+money = int(input("Enter amount to deposit: "))
 money1 = 0 + money
 money = money1
 
