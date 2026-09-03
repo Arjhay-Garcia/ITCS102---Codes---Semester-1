@@ -1,0 +1,14 @@
+#Assignment operator numbers
+
+Money = 2000
+Deposit = eval(input("Your balance is " + str(Money) + ", how much hypothetical money would you like to deposit?"))
+
+Money += Deposit
+
+print("Your new balance is --> ", Money)
+
+withdraw = eval(input("Your new balance is --> " + str(Money) + ", how much hypothetical money would you like to withdraw?"))
+
+Money -= withdraw
+
+print("Your new balance is --> ", Money)

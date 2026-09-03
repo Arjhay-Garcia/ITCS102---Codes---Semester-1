@@ -1,0 +1,50 @@
+#assignment operator 2..... with words this time
+
+places = ""
+
+place = input("What places have you been to? ")
+
+places += place + ", "
+print("The places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+place = input("Where else? ")
+places += place + ", "
+print("the places you've gone to are: ", places)
+
+print("\n\n\n\n\nNow thats a lot of (supposed) places you've gone to")
