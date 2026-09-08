@@ -1,0 +1,27 @@
+# conditionals
+
+
+username = "Garcia"
+password = "asdfghjkl"
+
+u = input("Enter Username: ")
+p = input("Enter Password: ")
+
+if username == u and password == p:
+	print("ACCESS GRANTED")
+else:
+	print("ACCESS DENIED")
+print("Thank you!")
+
+
+print("\n\n====================\n\n")
+
+
+
+rain = int(input("According to the Weather Forecast, what is the chances of rain today? \n(Please input a number.) "))
+
+
+if rain > 30:
+	print("You'll probably be fine.")
+else:
+	print("You might wanna bring an umbrella.")

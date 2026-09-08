@@ -1,0 +1,15 @@
+# getpass samthingn samting
+from getpass import getpass
+
+
+username = "Garcia"
+password = "asdfghjkl"
+
+u = input("Enter Username: ")
+p = getpass("Enter Password: ")
+
+if username == u and password == p:
+	print("ACCESS GRANTED")
+else:
+	print("ACCESS DENIED")
+print("Thank you!")

@@ -1,0 +1,12 @@
+#relational Operator
+
+print("\n\nThis is a number comparer\n")
+print("Relational Operator: >")
+num1 = input("First Number? ")
+num2 = input("Second Number? ")
+
+GT = num1 > num2
+
+print("The statement", num1, "is greater than", num2, "is ", GT)
+
+
