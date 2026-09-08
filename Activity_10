@@ -7,7 +7,7 @@ user = "Garcia" or "garcia"
 verify = input("Who wrote this code?")
 
 
-print("verify, "is", verify == user)
+print(verify, "is", verify == user)
 
 
 print("\n\n====================\n\n")
