@@ -1,0 +1,38 @@
+
+
+# Global Freight Calculator
+
+sender = str(input("Sender Name: "))
+item = str(input("Item: "))
+is_fragile = bool(input("Fragile? "))
+weight = float(input("Weight of the Item: "))
+distance = float(input("Distance: "))
+is_express = bool(input("Express? "))
+is_international = bool(input("International? "))
+
+print("\n\n\n")
+print("Sender Name:\t", sender)
+print("Item:\t\t", item)
+print("Fragile:\t", is_fragile)
+print("Weight:\t\t", weight, "kg")
+print("Distance:\t", distance, "km")
+print("Express?\t", is_express)
+print("International:\t", is_international)
+
+
+base_cost = (weight * 2.50) + (distance * 0.15)
+
+
+if is_international == True and is_express == True:
+	total = (base_cost * 1.40) + 50
+
+elif is_express == True or is_international == True and weight > 20:
+	total = (base_cost * 1.20) + 25
+
+elif weight > 30 or distance > 1000:
+	total = base_cost + 30
+
+else:
+	total = base_cost
+
+print(total)

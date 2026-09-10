@@ -1,0 +1,29 @@
+
+
+name = input("Input NAME ------> ")
+age = int(input("Input AGE -----> "))
+
+
+print("Hi, ",name)
+print("Your age is ", age)
+
+if age < 0:
+	print("You are not born yet.")
+elif age <= 5:
+	print("You are an Infant.")
+elif age <= 12:
+	print("You are a Kid.")
+elif age <= 19:
+	print("You are a Teenager.")
+elif age <= 29:
+	print("You are in Early Adulthood.")
+elif age <= 48:
+	print("You are an Adult.")
+elif age <= 59:
+	print("You are a Advanced Adult.")
+elif age <= 150:
+	print("You are a Senior Citizen.")
+elif age >= 151:
+	print("sdfisapdhgfsadrguhszdfpgbiojsadgsnadgfpnaspifnup9asndugfbsadiub.")
+else:
+	print("invalid.")
