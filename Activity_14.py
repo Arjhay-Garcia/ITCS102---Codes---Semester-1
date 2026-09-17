@@ -4,20 +4,23 @@
 age = int(input("Enter your age: "))
 is_employed = input("Are you currently employed? ")
 
-if is_employed == "true" or "True" or "yes" or "Yes":
+if is_employed == "true" or is_employed == "True" or is_employed == "yes" or is_employed == "Yes":
     is_employed = True
-else:
+elif is_employed == "false" or is_employed == "False" or is_employed == "no" or is_employed == "No":
     is_employed = False
+else:
+    print("Invalid")
     
 credit_score = int(input("What's your Credit Score? "))
 annual_income = float(input("what's your annual salary? "))
 has_collateral = input("Do you have any Collateral? ")
 
-if has_collateral == "true" or "True" or "yes" or "Yes":
+if has_collateral == "true" or has_collateral == "True" or has_collateral == "yes" or has_collateral == "Yes":
     has_collateral = True
-else:
+elif has_collateral == "false" or has_collateral == "False" or has_collateral == "no" or has_collateral == "No":
     has_collateral = False
-    
+else:
+    print("Invalid")
 
 base_interest = float(0)
 
@@ -32,18 +35,15 @@ if age >= 21 and is_employed == True:
         else:
             base_interest = 5
             print("You are a Tier 1. \nBase Interest Rate is", base_interest, "%")
-    elif credit_score < 750 and has_collateral == False:
-        base_interest = 8
-        print("You are a Mid Tier 2. Your Base Interest Rate is", base_interest, "%")
-        if 600 <= credit_score < 750 and has_collateral == True:
-            base_interest = 7
-            print("You are a High Tier 2. Your Base Interest Rate is", base_interest, "%")
-        elif has_collateral == False and annual_income < 40000:
+    elif annual_income < 40000 and has_collateral == False: #tier2
             base_interest = 9.5
             print("You are a Low Tier 2. Your Base Interest Rate is", base_interest, "%")
-        else:
-            base_interest = 8
-            print("You are a Mid Tier 2. Your Base Interest Rate is", base_interest, "%")
+    elif credit_score < 750 and has_collateral == False: 
+        base_interest = 8
+        print("You are a Mid Tier 2. Your Base Interest Rate is", base_interest, "%")
+    elif 600 <= credit_score < 750 and has_collateral == True:
+            base_interest = 7
+            print("You are a High Tier 2. Your Base Interest Rate is", base_interest, "%")
     elif credit_score < 600:
         print("Rejected: Credit score too low.")
     else:
@@ -51,8 +51,3 @@ if age >= 21 and is_employed == True:
 else: 
     print("Rejected: Fails Baseline Criteria")
     
-
-
-
-
-
